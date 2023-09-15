@@ -13,6 +13,7 @@ import { Logo } from './Logo'
 
 import { NavItem } from './NavItem'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
+import { Profile } from './Profile'
 
 export const SideBar = () => {
   return (
@@ -43,6 +44,9 @@ export const SideBar = () => {
         </nav>
 
         <UsedSpaceWidget />
+
+        <div className="h-px bg-zinc-200"></div>
+        <Profile />
       </article>
     </aside>
   )
