@@ -1,14 +1,14 @@
-import type { Config } from 'tailwindcss';
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: ['./app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
-      colors: {
-        ivan: '#7928CA',
+      gridTemplateColumns: {
+        app: 'minmax(18rem, 20rem) 1fr',
       },
     },
   },
   plugins: [],
-};
-export default config;
+}
+export default config

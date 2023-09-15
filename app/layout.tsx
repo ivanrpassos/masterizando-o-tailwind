@@ -15,8 +15,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-BR">
+      <body className={inter.className}>
+        <div className="grid-cols-app grid min-h-screen">
+          <aside className="border-r border-zinc-200 px-5 py-8">
+            <h1>teste</h1>
+          </aside>
+          <main className="px-4 pb-12 pt-8">{children}</main>
+        </div>
+      </body>
     </html>
   )
 }
