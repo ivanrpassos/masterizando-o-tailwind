@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<img width="1920" alt="masterizando-tailwind-banner" src="https://github.com/ivanrpassos/masterizando-o-tailwind/assets/62813966/54fe4eee-f3ab-4c39-a1d1-eadd995ce791">
 
-First, run the development server:
+# Descrição
+Este projeto, baseado em Next.js e Tailwind CSS, visa aprimorar as habilidades em Tailwind CSS através da prática e aplicação de estilos de forma eficiente.
 
+
+## Baixar o projeto
+Antes de tudo é necessário você fazer o download do projeto em sua máquina local. Pode baixar do jeito que preferir fazendo um `git clone`, `fork` do repositório ou baixar o `zip` do projeto. 
+
+Após ter feito isso, abra o projeto com o seu editor de código preferido. Recomendo o uso do [Visual Studio Code](https://code.visualstudio.com/).
+
+## Instalando as dependências
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+É o comando para baixar todas as dependências que o projeto possuí. Possibilitando roda-lo 
+após a instalação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build da aplicação
+```bash
+npm run build
+```
+Geramos um build da aplicação com todas as configurações que o projeto possuí. Com isso, podemos testar algumas features que no ambiente de desenvolvimento não podemos.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Rodando o projeto
+```bash
+npm run dev
+```
 
-## Learn More
+Inicia sua aplicação no ambiente de desenvolvimento. Após subir localmente em sua máquina, abra  [http://localhost:3000](http://localhost:3000) para ver a aplicação em seu navegador.
 
-To learn more about Next.js, take a look at the following resources:
+A cada alteração no código fonte a página será renderizada novamente com o Live Reload do Vite. Também é possível ter a visualização de erros em tempo real no prompt de comando onde executou o projeto e no navegador web, através do console do navegador.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Rodando o projeto com o ambiente de produção
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Inicia sua aplicação no ambiente de produção. Após subir localmente em sua máquina, abra  [http://localhost:3000](http://localhost:3000) para ver a aplicação em seu navegador.
 
-## Deploy on Vercel
+A cada alteração no código fonte a página será renderizada novamente com o Live Reload do Vite. Também é possível ter a visualização de erros em tempo real no prompt de comando onde executou o projeto e no navegador web, através do console do navegador.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tecnologias utilizadas
+Abaixo você encontra as seguintes tecnologias, linguagens e ferramentas utilizadas para o desenvolvimento do projeto.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="https://nextjs.org/"><img src="https://img.shields.io/static/v1?label=&message=Next.js&color=161b22&style=for-the-badge&logo=next.js"/></a>
+<a href="https://tailwindcss.com/"><img src="https://img.shields.io/static/v1?label=&message=Tailwind CSS&color=161b22&style=for-the-badge&logo=tailwindcss"/></a>
+<a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/static/v1?label=&message=Typescript&color=161b22&style=for-the-badge&logo=typescript"/></a>
+<a href="https://www.figma.com/"><img src="https://img.shields.io/static/v1?label=&message=Figma&color=161b22&style=for-the-badge&logo=figma"/></a>
