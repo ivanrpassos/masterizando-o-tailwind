@@ -2,9 +2,9 @@ import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 import * as FileInput from './components/Form/FileInput'
 import { Select } from './components/Form/Select'
 import { SelectItem } from './components/Form/Select/SelectItem'
+import { Textarea } from './components/Form/TextArea'
 import * as Input from './components/Input'
 import { SettingsTabs } from './components/SettingsTabs'
-import { Textarea } from './components/Form/TextArea'
 
 export default function Home() {
   return (
@@ -155,31 +155,31 @@ export default function Home() {
                 <div className="flex items-center gap-1">
                   <button
                     type="button"
-                    className="rounded-md p-2 hover:bg-zinc-50"
+                    className="rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Bold className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="rounded-md p-2 hover:bg-zinc-50"
+                    className="rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Italic className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="rounded-md p-2 hover:bg-zinc-50"
+                    className="rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <Link className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="rounded-md p-2 hover:bg-zinc-50"
+                    className="rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <List className="h-4 w-4 text-zinc-500" strokeWidth={3} />
                   </button>
                   <button
                     type="button"
-                    className="rounded-md p-2 hover:bg-zinc-50"
+                    className="rounded-md p-2 outline-none hover:bg-zinc-50 focus:border-violet-300 focus:ring-4 focus:ring-violet-100"
                   >
                     <ListOrdered
                       className="h-4 w-4 text-zinc-500"
