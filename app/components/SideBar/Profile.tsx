@@ -13,8 +13,10 @@ export const Profile = () => {
         width={40}
       />
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">Ivan Passos</span>
-        <span className="truncate text-sm text-zinc-500">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
+          Ivan Passos
+        </span>
+        <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">
           ivanp@digisource.com.br
         </span>
       </div>
