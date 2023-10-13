@@ -1,8 +1,9 @@
 'use client'
 
 import { User } from 'lucide-react'
-import { useFileInput } from './Root'
+import Image from 'next/image'
 import { useMemo } from 'react'
+import { useFileInput } from './Root'
 
 export function ImagePreview() {
   const { files } = useFileInput()
@@ -23,10 +24,12 @@ export function ImagePreview() {
     )
   } else {
     return (
-      <img
+      <Image
         className="h-16 w-16 rounded-full object-cover"
         src={previewUrl}
         alt=""
+        height={64}
+        width={64}
       />
     )
   }
