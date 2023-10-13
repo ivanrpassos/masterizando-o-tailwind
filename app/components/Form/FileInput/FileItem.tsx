@@ -49,15 +49,15 @@ export function FileItem({ name, size, state }: FileItemProps) {
       {state === 'error' ? (
         <div className="flex flex-1 flex-col items-start gap-1">
           <div className="flex flex-col">
-            <span className="text-error-700 text-sm font-medium">
+            <span className="sm:text-sm sm:font-medium sm:text-error-700">
               Upload failed, please try again.
             </span>
-            <span className="text-error-600 text-sm">{name}</span>
+            <span className="text-error-600 sm:text-sm">{name}</span>
           </div>
 
           <button
             type="button"
-            className="text-error-700 hover:text-error-900 text-sm font-semibold"
+            className="font-semibold hover:text-error-900 sm:text-sm sm:text-error-700"
           >
             Try again
           </button>
